@@ -61,6 +61,7 @@ start() {
   esac
   case "$arch" in
     *arm64*) arch=arm64 ;;
+    *aarch64*) arch=arm64;;
     *armv6l*) arch=armv6l ;;
     *armv7l*) arch=armv7l ;;
     *x86_64*) arch=x64 ;;
